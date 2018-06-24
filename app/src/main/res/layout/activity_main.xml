@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.think.fresco.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fresco的使用操作" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv1"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv2"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv3"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:visibility="gone"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop" />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv4"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:backgroundImage="@android:color/holo_orange_light"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop">
+
+            </com.facebook.drawee.view.SimpleDraweeView>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv5"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:backgroundImage="@android:color/holo_orange_light"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:overlayImage="@android:color/black"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop">
+
+            </com.facebook.drawee.view.SimpleDraweeView>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv6"
+                android:layout_width="150dp"
+                android:layout_height="250dp"
+                android:visibility="gone"
+                app:backgroundImage="@android:color/holo_orange_light"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop"
+                app:roundAsCircle="true">
+
+            </com.facebook.drawee.view.SimpleDraweeView>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv7"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:backgroundImage="@android:color/holo_orange_light"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop"
+                app:roundedCornerRadius="20dp">
+
+            </com.facebook.drawee.view.SimpleDraweeView>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv8"
+                android:layout_width="300dp"
+                android:layout_height="400dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:backgroundImage="@android:color/holo_orange_light"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop"
+                app:roundTopLeft="false"
+                app:roundedCornerRadius="20dp">
+
+            </com.facebook.drawee.view.SimpleDraweeView>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv9"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:backgroundImage="@android:color/holo_orange_light"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop"
+                app:roundAsCircle="true"
+                app:roundingBorderColor="@android:color/black"
+                app:roundingBorderWidth="10dp">
+
+            </com.facebook.drawee.view.SimpleDraweeView>
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/main_sdv10"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone"
+                app:backgroundImage="@android:color/holo_orange_light"
+                app:fadeDuration="5000"
+                app:failureImage="@mipmap/icon_failure"
+                app:placeholderImage="@mipmap/ic_launcher"
+                app:placeholderImageScaleType="fitCenter"
+                app:progressBarImage="@mipmap/icon_progress_bar"
+                app:retryImage="@mipmap/icon_retry"
+                app:retryImageScaleType="centerCrop"
+                app:roundAsCircle="true"
+                app:roundWithOverlayColor="@android:color/darker_gray" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!--
+    属性介绍:
+    failureImage,加载失败时候的图片
+    placeholderImageScaleType,占位图缩放模式
+    placeholderImage,默认占位图
+
+    -->
+    <!--
+    app:placeholderImageScaleType="fitCenter"
+    center	居中，无缩放
+centerCrop	保持宽高比缩小或放大，使得两边都大于或等于显示边界。居中显示。
+focusCrop	同centerCrop, 但居中点不是中点，而是指定的某个点
+centerInside	使两边都在显示边界内，居中显示。如果图尺寸大于显示边界，则保持长宽比缩小图片。
+fitCenter	保持宽高比，缩小或者放大，使得图片完全显示在显示边界内。居中显示
+fitStart	同上。但不居中，和显示边界左上对齐
+fitEnd	同fitCenter， 但不居中，和显示边界右下对齐
+fitXY	不保存宽高比，填充满显示边界
+none	如要使用tile mode显示, 需要设置为none
+
+    -->
+
+</LinearLayout>
