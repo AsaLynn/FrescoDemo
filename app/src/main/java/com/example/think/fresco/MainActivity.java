@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity {
         Uri imageUri = Uri.parse("http://img.mp.sohu.com/upload/20170807/a2fb82d180bd480390a2198f154c6267_th.png");
         view.setVisibility(View.VISIBLE);
         view.setImageURI(imageUri);
+        
     }
 
     private void show8() {
