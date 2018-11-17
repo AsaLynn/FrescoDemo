@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">FrescoDemo</string>
+    <string name="text_load_image">播放GIF</string>
+    <string name="text2">停止GIF</string>
+    <string name="text_add">动态添加</string>
+    <string name="text_assets">加载assets资源图</string>
+    <string name="text_select_image_source">选择加载图片的来源</string>
 </resources>
