@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
                         "8加载,圆角图—部分不是圆角",
                         "9加载,圆形圆角边框宽度及颜色—roundingBorder",
                         "10加载,圆形或圆角图像底下的叠加颜色—roundWithOverlayColor",
+                        "11加载指定宽高比例",
 
                 };
                 DialogUtil.showListDialog(MainActivity.this, title, items, new DialogInterface.OnClickListener() {
@@ -90,12 +91,22 @@ public class MainActivity extends AppCompatActivity {
                             case 10:
                                 show10();
                                 break;
+                            case 11:
+                                show11();
+                                break;
                         }
                     }
                 });
             }
         });
 
+    }
+
+    private void show11() {
+        SimpleDraweeView view = (SimpleDraweeView) findViewById(R.id.main_sdv11);
+        Uri imageUri = Uri.parse("http://img.mp.sohu.com/upload/20170807/a2fb82d180bd480390a2198f154c6267_th.png");
+        view.setVisibility(View.VISIBLE);
+        view.setImageURI(imageUri);
     }
 
     private void show10() {
@@ -110,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
         Uri imageUri = Uri.parse("http://img.mp.sohu.com/upload/20170807/a2fb82d180bd480390a2198f154c6267_th.png");
         view.setVisibility(View.VISIBLE);
         view.setImageURI(imageUri);
-        
+
     }
 
     private void show8() {
